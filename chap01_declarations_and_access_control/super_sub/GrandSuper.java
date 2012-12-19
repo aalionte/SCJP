@@ -8,6 +8,10 @@ package super_sub;
 public class GrandSuper {
 	protected int a = 3;
 	
+	public void testFinalArg(final int i) {
+		i = 3;
+	}
+	
 	public static void main(String[] args) {
 		GrandSuper grandSuper = new GrandSuper();
 		Super _super = new Super(); // Reserved keyword
