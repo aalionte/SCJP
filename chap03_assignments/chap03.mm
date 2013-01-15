@@ -67,5 +67,14 @@
 </node>
 </node>
 </node>
+<node CREATED="1358117411274" ID="ID_1508492070" MODIFIED="1358117414359" POSITION="right" TEXT="......."/>
+<node CREATED="1358117415301" ID="ID_627171754" MODIFIED="1358117425540" POSITION="right" TEXT="Legal Aray Element Assignments">
+<node CREATED="1358117426652" ID="ID_1599398621" MODIFIED="1358117430931" TEXT="Primitives">
+<node CREATED="1358117432171" ID="ID_1160109518" MODIFIED="1358117461033" TEXT="Accepts any value that can be promoted implicitly to the declared type of the array"/>
+</node>
+<node CREATED="1358117466813" ID="ID_1528183675" MODIFIED="1358117477944" TEXT="Object references">
+<node CREATED="1358117512022" ID="ID_1453628792" MODIFIED="1358117535123" TEXT="Can put objects of any subclass of the declared type into the array"/>
+</node>
+</node>
 </node>
 </map>
