@@ -1,4 +1,4 @@
-import java.util.date;
+import java.util.Date;
 
 public class CheckGC {
 	public static void main(String [] args) {
@@ -11,7 +11,7 @@ public class CheckGC {
 			d = null;
 		}
 		System.out.println("Free after = " + rt.freeMemory());
-		for (int i = 0; i < 10000; i++) {
+		for (int i = 0; i < 10; i++) {
 			rt.gc();
 			System.out.println("Free after GC = " + rt.freeMemory());
 		}
