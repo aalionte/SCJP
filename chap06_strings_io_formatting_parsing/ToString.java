@@ -1,8 +1,7 @@
-public class StackOverFlow {
+public class ToString {
   public static void main(String [] args) {
-	new StackOverFlow().go();
+	String s = "big surprise";
+	System.out.println(s.toString());
   }
-  public void go() {
-	go();
-  }
+  
 }
