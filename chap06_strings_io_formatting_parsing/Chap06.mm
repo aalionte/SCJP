@@ -80,6 +80,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359503444334" ID="ID_1834271579" MODIFIED="1359503451874" TEXT="Any characters can serve here"/>
 </node>
+<node COLOR="#0033ff" CREATED="1360013991554" ID="ID_1079590519" MODIFIED="1360014012998" TEXT="\.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1360013999768" ID="ID_904909821" MODIFIED="1360014003748" TEXT="The period itself"/>
+</node>
 <node COLOR="#0033ff" CREATED="1359501606258" ID="ID_10794723" MODIFIED="1359501634274" TEXT="[abc]">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1359501617988" ID="ID_1483941165" MODIFIED="1359501631954" TEXT="Search only for a, b, c"/>
@@ -104,8 +108,7 @@
       Negate character: anything but <font color="#ff0000"><b>NOT</b></font>&#160;a, b, c
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -142,12 +145,21 @@
 <node CREATED="1359503415636" ID="ID_1238444489" MODIFIED="1359503422044" TEXT="The Predefined Dot">
 <node CREATED="1359503480296" ID="ID_880769448" MODIFIED="1359503489659" TEXT="Any character can serve here"/>
 </node>
-<node CREATED="1359503490656" FOLDED="true" ID="ID_785691512" MODIFIED="1359504756828" TEXT="Greedy Quantifiers">
+<node CREATED="1359503490656" ID="ID_785691512" MODIFIED="1360011323504" TEXT="Greedy Quantifiers">
 <node CREATED="1359504696782" ID="ID_1764459651" MODIFIED="1359504755408" TEXT="The greedy quantifier does in fact read the entire source data, and then it works  backward (from the right) until it finds the rightmost match"/>
 </node>
 <node CREATED="1359504758966" ID="ID_85674841" MODIFIED="1359504769513" TEXT="When Metacharacters and Strings Collide"/>
 </node>
-<node CREATED="1359504931680" ID="ID_1389656234" MODIFIED="1359504939502" TEXT="Locating Data via Pattern Matching"/>
+<node CREATED="1359504931680" ID="ID_1389656234" MODIFIED="1359504939502" TEXT="Locating Data via Pattern Matching">
+<node CREATED="1360012857400" ID="ID_1997211597" MODIFIED="1360012867526" TEXT="Searching using the Scanner Class"/>
+</node>
+<node CREATED="1360013254365" ID="ID_1543616121" MODIFIED="1360013259172" TEXT="Tokenizing">
+<node CREATED="1360013420373" ID="ID_1121325912" MODIFIED="1360013429072" TEXT="Token and Delimiters">
+<node CREATED="1360013586968" ID="ID_1535417867" MODIFIED="1360013589176" TEXT="Tokens are the actual pieces of data"/>
+<node CREATED="1360013598558" ID="ID_51491774" MODIFIED="1360013605891" TEXT="Delimiters can be anything that qualifies as a regex expression"/>
+</node>
+<node CREATED="1360013607067" ID="ID_1932820152" MODIFIED="1360013620610" TEXT="Tokenizing with String.split()"/>
+</node>
 </node>
 </node>
 </map>

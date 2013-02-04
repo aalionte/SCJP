@@ -18,5 +18,5 @@ class Locale1 {
 	
 	System.out.println("D>I " + locDK.getDisplayLanguage(locVN));
       
-  }
+  '
 }
