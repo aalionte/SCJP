@@ -7,3 +7,13 @@ class SplitTest {
       System.out.println(">" + s + "<");
   }
 }
+
+class Person {
+	private Heart heart;
+	private List<Hand> hands;
+}
+
+class City {
+	private List<Tree> trees;
+	private List<Car> cars
+}
